@@ -1,0 +1,48 @@
+
+.header {
+    /*csdn盒子阴影*/
+
+    border: 0.5px #D4D4D4 solid;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(top, #FFF, #F2F2F2);
+    background-image: -o-linear-gradient(top, #FFF, #F2F2F2);
+    background-image: -ms-linear-gradient(top, #FFF, #F2F2F2);
+    background-image: linear-gradient(top, #FFF, #F2F2F2);
+    background-color: #f9fcfc;
+    height: 44px;
+    margin-top: 0;
+
+}
+
+/* 方法一 */
+.mirrorRotateLevel {
+    transform: rotateY(180deg); /* 水平镜像翻转 */
+}
+
+.mirrorRotateVertical {
+    transform: rotateX(180deg); /* 垂直镜像翻转 */
+
+}
+
+.rowcss {
+    margin-top: 0;
+    font-size: x-large;
+    font-family: 'fangsong';
+
+}
+
+#csdn-toolbar .toolbar-logo img, #csdn_tool_otherPlace .toolbar-logo img {
+    display: block;
+    width: 80px;
+    min-width: 80px;
+    height: 44px;
+    margin-top: calc((48px - 44px) / 2);
+}
+
+.headavatar {
+    float: right;
+}
+
+.displays {
+    display: none;
+}

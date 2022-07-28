@@ -1,0 +1,21 @@
+.titleCardSpanfans {
+    float: left;
+}
+
+.titleCardSpanaLike {
+    float: right;
+}
+
+.box :hover {
+    color: #7d807d;
+    width: 150%;
+    height: 150%;
+
+}
+
+.avatartobighover {
+
+    width: 150%;
+    height: 150%;
+
+}
